@@ -26,6 +26,5 @@ It was seen that the code performs really well in reading straightforward PDF te
 
 Please give a star to the repo to let me know if the work helped you.
 
-# PDF-to-Audio
-A PDF-to-Audio function using Python
+
 
