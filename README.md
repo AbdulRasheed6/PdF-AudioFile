@@ -22,7 +22,8 @@ pip install -r requirements.txt
 
 
 
-It was seen that the code performs really well in reading straightforward PDF text files, however, if equations are involved in the text, then the reader cannot properly read the equations. Hence, the code is good for simple text but not for scientific papers as it will fumble reading the equations. However, text will be read just fine. 
+It was seen that the code performs really well in reading straightforward PDF text files, however, if equations are involved in the text, then the reader cannot properly read the equations. Hence, the code is good for simple text but not for scientific papers as it will fumble reading the equations.However, text will be read just fine.
+And also note tqdm library will only check for password in the WordList.txt file , if the password matches the password of the pdf , the pdf file is decrypted with the help of the pikepdf library.  
 
 Please give a star to the repo to let me know if the work helped you.
 
