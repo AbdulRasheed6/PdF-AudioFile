@@ -2,3 +2,4 @@ pyttsx3     ##--------a library for text-to-speech
 PyPDF2      ##-------- a library used to extract text 
 pikepdf      ##-------- library used to check if the pdf is encrypted or not
 tqdm
+typing

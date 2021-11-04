@@ -6,12 +6,13 @@ def Decrypt(path):
     passwords =[line.strip() for  line in open("Wordlist.txt")]
 
     ## iterate over password
-    for password in tqdm(passwords, "Decrypting PDF"):
+    for Password in tqdm(passwords, "Decrypting PDF"):
         ## open pdf
         try:
 
-            with pikepdf.open(path, password="password") as pdf:
-                print("[+] Password found:" , password)
+            with pikepdf.open(path, password="Password") as pdf:
+                print("[+] Password found:" , Password)
+                return pdf
                 
                 
 
